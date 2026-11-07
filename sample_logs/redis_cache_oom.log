@@ -1,0 +1,6 @@
+2026-11-07T06:12:10.012Z [cache-layer] [INFO] Cache warming completed for tenant_eu_west
+2026-11-07T06:15:32.410Z [cache-layer] [WARN] Memory usage at 92.4% (maxmemory=4096MB, used_memory=3785MB)
+2026-11-07T06:16:01.890Z [cache-layer] [ERROR] RedisCommandExecutionException: OOM command not allowed when used memory > 'maxmemory'.
+2026-11-07T06:16:02.102Z [cache-layer] [ERROR] Eviction policy 'noeviction' rejected SETNX session:usr_88291
+2026-11-07T06:16:05.450Z [cache-layer] [FATAL] User session validation failed across all nodes due to Redis OOM.
+

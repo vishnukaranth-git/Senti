@@ -1,0 +1,8 @@
+2026-11-07T08:14:02.102Z [payment-service] [INFO] Handling checkout request req_9921 for user usr_4102
+2026-11-07T08:14:05.312Z [payment-service] [WARN] HikariPool-1 - Connection pool acquisition approaching timeout (2850ms elapsed, 10/10 active connections)
+2026-11-07T08:14:07.450Z [payment-service] [ERROR] org.postgresql.util.PSQLException: Connection to 10.0.4.12:5432 refused or timed out after 30000ms.
+2026-11-07T08:14:07.452Z [payment-service] [ERROR] HikariPool-1 - Connection is not available, request timed out after 30002ms (active=10, idle=0, waiting=47).
+2026-11-07T08:14:07.460Z [payment-service] [FATAL] Transaction failed: Database connection timeout during lock acquisition on orders table.
+2026-11-07T08:14:08.001Z [payment-service] [ERROR] HTTP 500 Internal Server Error returned to checkout gateway for 47 queued requests.
+2026-11-07T08:14:10.120Z [payment-service] [ERROR] CircuitBreaker 'PostgresOrdersDB' transitioned to OPEN state due to 98% error rate in sliding window.
+

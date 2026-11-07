@@ -1,0 +1,11 @@
+{
+  "include": [
+    "backend"
+  ],
+  "extraPaths": [
+    "backend",
+    "backend/app"
+  ],
+  "reportMissingImports": "none",
+  "reportMissingTypeStubs": "none"
+}
