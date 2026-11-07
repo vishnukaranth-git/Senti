@@ -69,3 +69,5 @@ Thumbs.db
 
 # Temporary / Scratch
 scratch/
+
+.vercel
